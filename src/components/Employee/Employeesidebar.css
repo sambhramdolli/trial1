@@ -1,0 +1,98 @@
+.sidebar {
+  position: relative;
+  height: 100%;
+}
+
+.vertical-bar {
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+  margin-top: -25%;
+  margin-left: -40%;
+}
+
+.vertical-bar-icon {
+  width: 35px;
+  height: 35px;
+  margin: 30px 0;
+}
+
+.vertical-bar-icon:hover {
+  transform: scale(1.05);
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  height: 100%;
+  width: 360%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0%;
+  transition: height 0.3s ease; /* Smooth transition for height */
+}
+
+.button4, .button5, .button6, .button7 {
+  padding: 10px;
+  text-align: left;
+  border: none;
+  color: white;
+  margin-top: 12%;
+  width: 90%;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 5%;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: margin-top 0.3s ease; /* Smooth transition for margin-top */
+}
+
+.button4:hover, .button5:hover, .button6:hover, .button7:hover {
+  background-color: transparent;
+}
+
+.button-icon {
+  margin-right: 8px;
+}
+
+.dropdown-buttons {
+  display: flex; /* Ensure buttons are displayed */
+  flex-direction: column;
+  margin-left: 20px;
+  position: relative; /* Make sure dropdown-buttons are in the correct position */
+}
+
+.button4-1, .button4-2, .button4-3 {
+  padding: 8px; /* Smaller padding */
+  text-align: left;
+  border: none;
+  color: white;
+  width: 90%;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 8px;
+  font-size: 0.9rem; /* Smaller font size */
+}
+
+.button4-1:hover, .button4-2:hover, .button4-3:hover {
+  background-color: transparent;
+}
+
+
+
+
+

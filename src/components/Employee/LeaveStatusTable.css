@@ -1,0 +1,70 @@
+.leave-status-table-container {
+    display: flex;                /* Use flexbox for centering */
+    justify-content: center;      /* Center horizontally */
+    align-items: center;          /* Center vertically */
+    position: absolute;           /* Allows positioning with top, left */
+    top: 50%;                     /* Center vertically */
+    left: 50%;                   
+    transform: translate(-50%, -50%); 
+    width: 100%;                  
+    height: 100vh;                
+  }
+  
+  .leave-status-table {
+    width: 100%;                  /* Full width of the container */
+    max-width: 700px;             /* Maximum width for the table */
+    padding: 20px;               /* Space inside the table */
+    border-radius: 8px;          /* Rounded corners */
+    border: 2px solid #fcfcfc;   /* Border color to match LeaveForm */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+       /* Dark background to match LeaveForm */
+    color: #fff;                  /* White text color for readability */
+  }
+  
+  .leave-status-table h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;                  /* White text color for heading */
+  }
+  
+  .leave-status-table table {
+    width: 100%;                  /* Full width of the container */
+    border-collapse: collapse;    /* Remove gaps between borders */
+  }
+  
+  .leave-status-table th, .leave-status-table td {
+    padding: 12px;                /* Space inside table cells */
+    text-align: left;
+    border-bottom: 1px solid #555; /* Darker border for rows */
+  }
+  
+  .leave-status-table th {
+    background-color: #ffffff;      /* Darker background for header */
+    font-weight: bold;
+    color: #070000;                  /* White text for headers */
+  }
+  
+  .leave-status-table td {
+    color: #fff;                  /* White text for table cells */
+  }
+  
+  .leave-status-table tbody tr:hover {
+    background-color: #555;      /* Darker background on row hover */
+  }
+  
+  .no-leaves {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;                  /* White text color for no leaves message */
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
